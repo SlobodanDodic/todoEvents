@@ -1,0 +1,89 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgba(74, 95, 116, 0.17);
+}
+
+/******************************EventNavBar******************************/
+.MuiAppBar-positionFixed {
+  top: 0;
+  left: 14%;
+  right: 14%;
+  position: fixed;
+  border-radius: 0 0 25% 25%;
+}
+
+/*******************************EventForm*******************************/
+
+.MuiInputBase-input {
+  color: white !important;
+  display: inline-block !important;
+}
+
+.MuiFormLabel-root {
+  color: rgb(255, 255, 255) !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid rgba(255, 255, 255) !important;
+}
+
+/*******************************EventInfo*******************************/
+
+.info-container {
+  padding: 14px;
+  border-bottom: 4px double rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: rgb(13, 13, 61);
+}
+
+#total-events,
+#sum {
+  background-color: #14226d !important;
+}
+
+#today-grid {
+  transform: skew(-20deg);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#today-grid:hover {
+  transform: skew(-20deg);
+  cursor: cell;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0), 1px 2px 2px rgb(255, 255, 255);
+  color: #240505;
+}
+
+/*********************************Event********************************/
+
+.flatpickr-input {
+  width: 70%;
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(105, 102, 102, 0.699);
+}
+
+#delete:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  text-shadow: 1px 2px 2px rgb(0, 0, 0), 1px 2px 2px rgb(255, 255, 255);
+  color: #991313;
+}
+
+#edit:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  text-shadow: 1px 2px 2px rgb(0, 0, 0), 1px 2px 2px rgb(255, 255, 255);
+  color: #364283;
+}
+
+/********************************EventMap******************************/
+#empy-events {
+  font-size: 29px;
+  font-style: italic;
+  margin: 3rem auto;
+  text-align: center;
+}
